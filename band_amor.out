@@ -1,0 +1,345 @@
+Working in 2 dimensions.
+Grid size is 32 x 32 x 1.
+Solving for 10 bands at a time.
+Creating Maxwell data...
+Mesh size is 3.
+Lattice vectors:
+     (0.5, 0.866025, 0)
+     (0.5, -0.866025, 0)
+     (0, 0, 1)
+Cell volume = 0.866025
+Reciprocal lattice vectors (/ 2 pi):
+     (1, 0.57735, -0)
+     (1, -0.57735, 0)
+     (-0, 0, 1)
+Geometric objects:
+     prism, center = (0.333333,0.333333,0)
+          height 1e+20, axis (0,0,1), 6 vertices:
+          (0.222224,0.111112,0)
+          (0.111112,-0.111112,0)
+          (-0.111112,-0.222224,0)
+          (-0.222224,-0.111112,0)
+          (-0.111112,0.111112,0)
+          (0.111112,0.222224,0)
+     prism, center = (0.333333,0,0)
+          height 1e+20, axis (0,0,1), 6 vertices:
+          (0.222224,0.111112,0)
+          (0.111112,-0.111112,0)
+          (-0.111112,-0.222224,0)
+          (-0.222224,-0.111112,0)
+          (-0.111112,0.111112,0)
+          (0.111112,0.222224,0)
+     prism, center = (0,-0.333333,0)
+          height 1e+20, axis (0,0,1), 6 vertices:
+          (0.222224,0.111112,0)
+          (0.111112,-0.111112,0)
+          (-0.111112,-0.222224,0)
+          (-0.222224,-0.111112,0)
+          (-0.111112,0.111112,0)
+          (0.111112,0.222224,0)
+     prism, center = (-0.333333,-0.333333,0)
+          height 1e+20, axis (0,0,1), 6 vertices:
+          (0.222224,0.111112,0)
+          (0.111112,-0.111112,0)
+          (-0.111112,-0.222224,0)
+          (-0.222224,-0.111112,0)
+          (-0.111112,0.111112,0)
+          (0.111112,0.222224,0)
+     prism, center = (-0.333333,0,0)
+          height 1e+20, axis (0,0,1), 6 vertices:
+          (0.222224,0.111112,0)
+          (0.111112,-0.111112,0)
+          (-0.111112,-0.222224,0)
+          (-0.222224,-0.111112,0)
+          (-0.111112,0.111112,0)
+          (0.111112,0.222224,0)
+     prism, center = (0,0.333333,0)
+          height 1e+20, axis (0,0,1), 6 vertices:
+          (0.222224,0.111112,0)
+          (0.111112,-0.111112,0)
+          (-0.111112,-0.222224,0)
+          (-0.222224,-0.111112,0)
+          (-0.111112,0.111112,0)
+          (0.111112,0.222224,0)
+     prism, center = (0,0,0)
+          height 1e+20, axis (0,0,1), 6 vertices:
+          (0.222221,0.11111,0)
+          (0.11111,-0.11111,0)
+          (-0.11111,-0.222221,0)
+          (-0.222221,-0.11111,0)
+          (-0.11111,0.11111,0)
+          (0.11111,0.222221,0)
+Geometric object tree has depth 5 and 43 object nodes (vs. 7 actual objects)
+Initializing epsilon function...
+Allocating fields...
+Solving for band polarization: te.
+Initializing fields to random numbers...
+solve_kpoint (0.666667,0.333333,0):
+tefreqs:, k index, k1, k2, k3, kmag/2pi, te band 1, te band 2, te band 3, te band 4, te band 5, te band 6, te band 7, te band 8, te band 9, te band 10
+Solving for bands 1 to 10...
+Finished solving for bands 1 to 10 after 21 iterations.
+tefreqs:, 1, 0.666667, 0.333333, 0, 1.01835, 0.27273, 0.467939, 0.517393, 0.61186, 0.639658, 0.672494, 0.77314, 0.793504, 0.842336, 0.844657
+solve_kpoint (0.633333,0.316667,0):
+Solving for bands 1 to 10...
+Finished solving for bands 1 to 10 after 11 iterations.
+tefreqs:, 2, 0.633333, 0.316667, 0, 0.967433, 0.281245, 0.465948, 0.515935, 0.609721, 0.636784, 0.672334, 0.773997, 0.794264, 0.840156, 0.845934
+solve_kpoint (0.6,0.3,0):
+Solving for bands 1 to 10...
+Finished solving for bands 1 to 10 after 11 iterations.
+tefreqs:, 3, 0.6, 0.3, 0, 0.916515, 0.293565, 0.464564, 0.512533, 0.60723, 0.631386, 0.672364, 0.775601, 0.795108, 0.836852, 0.847527
+solve_kpoint (0.566667,0.283333,0):
+Solving for bands 1 to 10...
+Finished solving for bands 1 to 10 after 11 iterations.
+tefreqs:, 4, 0.566667, 0.283333, 0, 0.865598, 0.309047, 0.463762, 0.50683, 0.604447, 0.624656, 0.672369, 0.777757, 0.796057, 0.833159, 0.848788
+solve_kpoint (0.533333,0.266667,0):
+Solving for bands 1 to 10...
+Finished solving for bands 1 to 10 after 11 iterations.
+tefreqs:, 5, 0.533333, 0.266667, 0, 0.81468, 0.32699, 0.463108, 0.498694, 0.601341, 0.618092, 0.672214, 0.78022, 0.797154, 0.829324, 0.84967
+solve_kpoint (0.5,0.25,0):
+Solving for bands 1 to 10...
+Finished solving for bands 1 to 10 after 12 iterations.
+tefreqs:, 6, 0.5, 0.25, 0, 0.763763, 0.346683, 0.460849, 0.489341, 0.597939, 0.613049, 0.671876, 0.782699, 0.798434, 0.825622, 0.850206
+solve_kpoint (0.466667,0.233333,0):
+Solving for bands 1 to 10...
+Finished solving for bands 1 to 10 after 12 iterations.
+tefreqs:, 7, 0.466667, 0.233333, 0, 0.712845, 0.367412, 0.452211, 0.483308, 0.594668, 0.610132, 0.671397, 0.78488, 0.799807, 0.822439, 0.85045
+solve_kpoint (0.433333,0.216667,0):
+Solving for bands 1 to 10...
+Finished solving for bands 1 to 10 after 11 iterations.
+tefreqs:, 8, 0.433333, 0.216667, 0, 0.661928, 0.388391, 0.434784, 0.483226, 0.592268, 0.609214, 0.670841, 0.786512, 0.800816, 0.820428, 0.850463
+solve_kpoint (0.4,0.2,0):
+Solving for bands 1 to 10...
+Finished solving for bands 1 to 10 after 11 iterations.
+tefreqs:, 9, 0.4, 0.2, 0, 0.61101, 0.406109, 0.414392, 0.486438, 0.591292, 0.610082, 0.670278, 0.787488, 0.800605, 0.820447, 0.850298
+solve_kpoint (0.366667,0.183333,0):
+Solving for bands 1 to 10...
+Finished solving for bands 1 to 10 after 11 iterations.
+tefreqs:, 10, 0.366667, 0.183333, 0, 0.560093, 0.38355, 0.429397, 0.491251, 0.592068, 0.612696, 0.669777, 0.787819, 0.79877, 0.822727, 0.850005
+solve_kpoint (0.333333,0.166667,0):
+Solving for bands 1 to 10...
+Finished solving for bands 1 to 10 after 11 iterations.
+tefreqs:, 11, 0.333333, 0.166667, 0, 0.509175, 0.354085, 0.446561, 0.497052, 0.59489, 0.617108, 0.669411, 0.787542, 0.795765, 0.826552, 0.849619
+solve_kpoint (0.3,0.15,0):
+Solving for bands 1 to 10...
+Finished solving for bands 1 to 10 after 11 iterations.
+tefreqs:, 12, 0.3, 0.15, 0, 0.458258, 0.322571, 0.460792, 0.503493, 0.600083, 0.623352, 0.669268, 0.786665, 0.792102, 0.831103, 0.849172
+solve_kpoint (0.266667,0.133333,0):
+Solving for bands 1 to 10...
+Finished solving for bands 1 to 10 after 11 iterations.
+tefreqs:, 13, 0.266667, 0.133333, 0, 0.40734, 0.289553, 0.471572, 0.510072, 0.607847, 0.631376, 0.669476, 0.785139, 0.788037, 0.83579, 0.84869
+solve_kpoint (0.233333,0.116667,0):
+Solving for bands 1 to 10...
+Finished solving for bands 1 to 10 after 11 iterations.
+tefreqs:, 14, 0.233333, 0.116667, 0, 0.356423, 0.255379, 0.479198, 0.516055, 0.617942, 0.640996, 0.670274, 0.782734, 0.783792, 0.840151, 0.84821
+solve_kpoint (0.2,0.1,0):
+Solving for bands 1 to 10...
+Finished solving for bands 1 to 10 after 11 iterations.
+tefreqs:, 15, 0.2, 0.1, 0, 0.305505, 0.220304, 0.484428, 0.520872, 0.6294, 0.651889, 0.672172, 0.778458, 0.780221, 0.843739, 0.847845
+solve_kpoint (0.166667,0.0833333,0):
+Solving for bands 1 to 10...
+Finished solving for bands 1 to 10 after 11 iterations.
+tefreqs:, 16, 0.166667, 0.0833333, 0, 0.254588, 0.18453, 0.487992, 0.524395, 0.640394, 0.663591, 0.676243, 0.77313, 0.776301, 0.845733, 0.848199
+solve_kpoint (0.133333,0.0666667,0):
+Solving for bands 1 to 10...
+Finished solving for bands 1 to 10 after 11 iterations.
+tefreqs:, 17, 0.133333, 0.0666667, 0, 0.20367, 0.148216, 0.490412, 0.52681, 0.648635, 0.675615, 0.683892, 0.767087, 0.771477, 0.845798, 0.849564
+solve_kpoint (0.1,0.05,0):
+Solving for bands 1 to 10...
+Finished solving for bands 1 to 10 after 11 iterations.
+tefreqs:, 18, 0.1, 0.05, 0, 0.152753, 0.111497, 0.492029, 0.528383, 0.653315, 0.687668, 0.694826, 0.7602, 0.765762, 0.8454, 0.850622
+solve_kpoint (0.0666667,0.0333333,0):
+Solving for bands 1 to 10...
+Finished solving for bands 1 to 10 after 10 iterations.
+tefreqs:, 19, 0.0666667, 0.0333333, 0, 0.101835, 0.0744883, 0.493057, 0.529345, 0.655599, 0.699012, 0.707093, 0.752343, 0.759506, 0.845002, 0.851185
+solve_kpoint (0.0333333,0.0166667,0):
+Solving for bands 1 to 10...
+Finished solving for bands 1 to 10 after 10 iterations.
+tefreqs:, 20, 0.0333333, 0.0166667, 0, 0.0509175, 0.037291, 0.493625, 0.529856, 0.656619, 0.707927, 0.719017, 0.743642, 0.753838, 0.844734, 0.851422
+solve_kpoint (0,0,0):
+Solving for bands 2 to 10...
+Finished solving for bands 2 to 10 after 10 iterations.
+tefreqs:, 21, 0, 0, 0, 0, 0, 0.493804, 0.530009, 0.656894, 0.711564, 0.726492, 0.737341, 0.751299, 0.844664, 0.851485
+solve_kpoint (0,0.025,0):
+Solving for bands 1 to 10...
+Finished solving for bands 1 to 10 after 9 iterations.
+tefreqs:, 22, 0, 0.025, 0, 0.0288675, 0.0211169, 0.493746, 0.529961, 0.656807, 0.71027, 0.723765, 0.739665, 0.75227, 0.844671, 0.851466
+solve_kpoint (0,0.05,0):
+Solving for bands 1 to 10...
+Finished solving for bands 1 to 10 after 9 iterations.
+tefreqs:, 23, 0, 0.05, 0, 0.057735, 0.0422164, 0.493565, 0.529805, 0.656503, 0.706734, 0.718187, 0.744083, 0.754823, 0.844727, 0.851413
+solve_kpoint (0,0.075,0):
+Solving for bands 1 to 10...
+Finished solving for bands 1 to 10 after 9 iterations.
+tefreqs:, 24, 0, 0.075, 0, 0.0866025, 0.063282, 0.493255, 0.529528, 0.655933, 0.701693, 0.711728, 0.74873, 0.758231, 0.844814, 0.851324
+solve_kpoint (0,0.1,0):
+Solving for bands 1 to 10...
+Finished solving for bands 1 to 10 after 9 iterations.
+tefreqs:, 25, 0, 0.1, 0, 0.11547, 0.0842966, 0.492806, 0.529116, 0.654998, 0.695811, 0.704872, 0.753243, 0.761921, 0.844906, 0.851194
+solve_kpoint (0,0.125,0):
+Solving for bands 1 to 10...
+Finished solving for bands 1 to 10 after 10 iterations.
+tefreqs:, 26, 0, 0.125, 0, 0.144338, 0.105243, 0.492199, 0.528546, 0.653525, 0.689625, 0.697829, 0.757531, 0.765563, 0.844962, 0.851022
+solve_kpoint (0,0.15,0):
+Solving for bands 1 to 10...
+Finished solving for bands 1 to 10 after 10 iterations.
+tefreqs:, 27, 0, 0.15, 0, 0.173205, 0.126102, 0.491405, 0.52779, 0.651245, 0.683644, 0.690743, 0.761566, 0.768992, 0.844937, 0.850809
+solve_kpoint (0,0.175,0):
+Solving for bands 1 to 10...
+Finished solving for bands 1 to 10 after 10 iterations.
+tefreqs:, 28, 0, 0.175, 0, 0.202073, 0.146855, 0.490382, 0.526814, 0.647824, 0.678385, 0.683733, 0.765346, 0.772134, 0.844777, 0.850564
+solve_kpoint (0,0.2,0):
+Solving for bands 1 to 10...
+Finished solving for bands 1 to 10 after 10 iterations.
+tefreqs:, 29, 0, 0.2, 0, 0.23094, 0.16748, 0.489063, 0.525587, 0.643046, 0.674191, 0.676947, 0.768873, 0.774969, 0.844422, 0.850308
+solve_kpoint (0,0.225,0):
+Solving for bands 1 to 10...
+Finished solving for bands 1 to 10 after 10 iterations.
+tefreqs:, 30, 0, 0.225, 0, 0.259808, 0.187956, 0.487352, 0.524084, 0.637044, 0.669879, 0.671708, 0.772153, 0.777508, 0.843821, 0.850068
+solve_kpoint (0,0.25,0):
+Solving for bands 1 to 10...
+Finished solving for bands 1 to 10 after 10 iterations.
+tefreqs:, 31, 0, 0.25, 0, 0.288675, 0.208256, 0.485107, 0.522302, 0.630258, 0.663777, 0.669525, 0.77518, 0.779785, 0.842944, 0.849865
+solve_kpoint (0,0.275,0):
+Solving for bands 1 to 10...
+Finished solving for bands 1 to 10 after 10 iterations.
+tefreqs:, 32, 0, 0.275, 0, 0.317543, 0.228355, 0.482132, 0.520274, 0.623203, 0.657897, 0.668157, 0.777932, 0.78186, 0.841791, 0.84971
+solve_kpoint (0,0.3,0):
+Solving for bands 1 to 10...
+Finished solving for bands 1 to 10 after 10 iterations.
+tefreqs:, 33, 0, 0.3, 0, 0.34641, 0.24822, 0.478176, 0.518089, 0.616326, 0.65245, 0.667226, 0.780349, 0.783823, 0.8404, 0.849598
+solve_kpoint (0,0.325,0):
+Solving for bands 1 to 10...
+Finished solving for bands 1 to 10 after 10 iterations.
+tefreqs:, 34, 0, 0.325, 0, 0.375278, 0.267817, 0.472961, 0.515886, 0.609968, 0.647505, 0.666572, 0.782352, 0.785777, 0.838828, 0.849521
+solve_kpoint (0,0.35,0):
+Solving for bands 1 to 10...
+Finished solving for bands 1 to 10 after 10 iterations.
+tefreqs:, 35, 0, 0.35, 0, 0.404145, 0.287106, 0.46624, 0.513822, 0.604366, 0.643116, 0.666103, 0.783915, 0.787761, 0.837153, 0.849467
+solve_kpoint (0,0.375,0):
+Solving for bands 1 to 10...
+Finished solving for bands 1 to 10 after 10 iterations.
+tefreqs:, 36, 0, 0.375, 0, 0.433013, 0.30604, 0.457868, 0.512028, 0.599656, 0.639327, 0.665761, 0.785099, 0.789708, 0.835461, 0.849431
+solve_kpoint (0,0.4,0):
+Solving for bands 1 to 10...
+Finished solving for bands 1 to 10 after 10 iterations.
+tefreqs:, 37, 0, 0.4, 0, 0.46188, 0.324562, 0.447832, 0.510573, 0.595886, 0.636175, 0.665514, 0.785988, 0.791512, 0.833851, 0.849407
+solve_kpoint (0,0.425,0):
+Solving for bands 1 to 10...
+Finished solving for bands 1 to 10 after 10 iterations.
+tefreqs:, 38, 0, 0.425, 0, 0.490748, 0.342605, 0.436236, 0.509471, 0.593039, 0.633692, 0.665339, 0.78664, 0.793069, 0.832429, 0.849391
+solve_kpoint (0,0.45,0):
+Solving for bands 1 to 10...
+Finished solving for bands 1 to 10 after 10 iterations.
+tefreqs:, 39, 0, 0.45, 0, 0.519615, 0.360079, 0.423258, 0.508707, 0.591066, 0.631901, 0.665223, 0.787089, 0.794284, 0.831305, 0.849382
+solve_kpoint (0,0.475,0):
+Solving for bands 1 to 10...
+Finished solving for bands 1 to 10 after 10 iterations.
+tefreqs:, 40, 0, 0.475, 0, 0.548483, 0.37683, 0.409148, 0.508257, 0.589913, 0.63082, 0.665157, 0.787357, 0.795068, 0.830586, 0.849379
+solve_kpoint (0,0.5,0):
+Solving for bands 1 to 10...
+Finished solving for bands 1 to 10 after 10 iterations.
+tefreqs:, 41, 0, 0.5, 0, 0.57735, 0.390504, 0.396327, 0.508102, 0.589538, 0.630458, 0.665138, 0.787452, 0.795353, 0.830349, 0.849381
+epsilon: 1-19.36, mean 6.31411, harm. mean 1.55129, 42.2852% > 1, 28.9439% "fill"
+Initializing eigensolver data
+Computing 10 bands with 1e-07 tolerance
+41 k-points
+  Vector3<0.6666666666666666, 0.3333333333333333, 0.0>
+  Vector3<0.6333333333333333, 0.31666666666666665, 0.0>
+  Vector3<0.6, 0.3, 0.0>
+  Vector3<0.5666666666666667, 0.2833333333333333, 0.0>
+  Vector3<0.5333333333333333, 0.26666666666666666, 0.0>
+  Vector3<0.5, 0.25, 0.0>
+  Vector3<0.4666666666666666, 0.2333333333333333, 0.0>
+  Vector3<0.4333333333333333, 0.21666666666666665, 0.0>
+  Vector3<0.39999999999999997, 0.19999999999999998, 0.0>
+  Vector3<0.36666666666666664, 0.18333333333333332, 0.0>
+  Vector3<0.3333333333333333, 0.16666666666666666, 0.0>
+  Vector3<0.3, 0.15, 0.0>
+  Vector3<0.2666666666666666, 0.1333333333333333, 0.0>
+  Vector3<0.23333333333333328, 0.11666666666666664, 0.0>
+  Vector3<0.19999999999999996, 0.09999999999999998, 0.0>
+  Vector3<0.16666666666666663, 0.08333333333333331, 0.0>
+  Vector3<0.1333333333333333, 0.06666666666666665, 0.0>
+  Vector3<0.09999999999999998, 0.04999999999999999, 0.0>
+  Vector3<0.06666666666666665, 0.033333333333333326, 0.0>
+  Vector3<0.033333333333333326, 0.016666666666666663, 0.0>
+  Vector3<0.0, 0.0, 0.0>
+  Vector3<0.0, 0.025, 0.0>
+  Vector3<0.0, 0.05, 0.0>
+  Vector3<0.0, 0.07500000000000001, 0.0>
+  Vector3<0.0, 0.1, 0.0>
+  Vector3<0.0, 0.125, 0.0>
+  Vector3<0.0, 0.15000000000000002, 0.0>
+  Vector3<0.0, 0.17500000000000002, 0.0>
+  Vector3<0.0, 0.2, 0.0>
+  Vector3<0.0, 0.225, 0.0>
+  Vector3<0.0, 0.25, 0.0>
+  Vector3<0.0, 0.275, 0.0>
+  Vector3<0.0, 0.30000000000000004, 0.0>
+  Vector3<0.0, 0.325, 0.0>
+  Vector3<0.0, 0.35000000000000003, 0.0>
+  Vector3<0.0, 0.375, 0.0>
+  Vector3<0.0, 0.4, 0.0>
+  Vector3<0.0, 0.42500000000000004, 0.0>
+  Vector3<0.0, 0.45, 0.0>
+  Vector3<0.0, 0.47500000000000003, 0.0>
+  Vector3<0.0, 0.5, 0.0>
+elapsed time for initialization: 0.010533809661865234
+elapsed time for k point: 0.2825770378112793
+elapsed time for k point: 0.15082478523254395
+elapsed time for k point: 0.1355881690979004
+elapsed time for k point: 0.19234490394592285
+elapsed time for k point: 0.24017977714538574
+elapsed time for k point: 0.33349132537841797
+elapsed time for k point: 0.28616762161254883
+elapsed time for k point: 0.22318315505981445
+elapsed time for k point: 0.19824767112731934
+elapsed time for k point: 0.22789883613586426
+elapsed time for k point: 0.24570989608764648
+elapsed time for k point: 0.22771835327148438
+elapsed time for k point: 0.1617438793182373
+elapsed time for k point: 0.1608293056488037
+elapsed time for k point: 0.16573667526245117
+elapsed time for k point: 0.15607285499572754
+elapsed time for k point: 0.16730856895446777
+elapsed time for k point: 0.1601881980895996
+elapsed time for k point: 0.23253440856933594
+elapsed time for k point: 0.24390935897827148
+elapsed time for k point: 0.14937543869018555
+elapsed time for k point: 0.14990496635437012
+elapsed time for k point: 0.14969301223754883
+elapsed time for k point: 0.14625334739685059
+elapsed time for k point: 0.1329936981201172
+elapsed time for k point: 0.1456894874572754
+elapsed time for k point: 0.15301036834716797
+elapsed time for k point: 0.14168310165405273
+elapsed time for k point: 0.14129137992858887
+elapsed time for k point: 0.1429448127746582
+elapsed time for k point: 0.17079639434814453
+elapsed time for k point: 0.2396223545074463
+elapsed time for k point: 0.2463686466217041
+elapsed time for k point: 0.3347322940826416
+elapsed time for k point: 0.43567442893981934
+elapsed time for k point: 0.3908982276916504
+elapsed time for k point: 0.513697624206543
+elapsed time for k point: 0.3085341453552246
+elapsed time for k point: 0.1674184799194336
+elapsed time for k point: 0.25368475914001465
+elapsed time for k point: 0.3680269718170166
+Band 1 range: 0.0 at Vector3<0.0, 0.0, 0.0> to 0.4061086198540615 at Vector3<0.39999999999999997, 0.19999999999999998, 0.0>
+Band 2 range: 0.3963271765575689 at Vector3<0.0, 0.5, 0.0> to 0.4938039031364169 at Vector3<0.0, 0.0, 0.0>
+Band 3 range: 0.48322608131266764 at Vector3<0.4333333333333333, 0.21666666666666665, 0.0> to 0.5300085457018865 at Vector3<0.0, 0.0, 0.0>
+Band 4 range: 0.5895383074699962 at Vector3<0.0, 0.5, 0.0> to 0.6568936954782826 at Vector3<0.0, 0.0, 0.0>
+Band 5 range: 0.6092138115626109 at Vector3<0.4333333333333333, 0.21666666666666665, 0.0> to 0.7115638069788734 at Vector3<0.0, 0.0, 0.0>
+Band 6 range: 0.6651383352993007 at Vector3<0.0, 0.5, 0.0> to 0.726492440871005 at Vector3<0.0, 0.0, 0.0>
+Band 7 range: 0.7373413225300586 at Vector3<0.0, 0.0, 0.0> to 0.787818590219766 at Vector3<0.36666666666666664, 0.18333333333333332, 0.0>
+Band 8 range: 0.7512992780660323 at Vector3<0.0, 0.0, 0.0> to 0.8008161271908761 at Vector3<0.4333333333333333, 0.21666666666666665, 0.0>
+Band 9 range: 0.820427891682894 at Vector3<0.4333333333333333, 0.21666666666666665, 0.0> to 0.8457984429423977 at Vector3<0.1333333333333333, 0.06666666666666665, 0.0>
+Band 10 range: 0.8446569689239535 at Vector3<0.6666666666666666, 0.3333333333333333, 0.0> to 0.8514845437137597 at Vector3<0.0, 0.0, 0.0>
+Gap from band 3 (0.5300085457018865) to band 4 (0.5895383074699962), 10.63461731850721%
+Gap from band 6 (0.726492440871005) to band 7 (0.7373413225300586), 1.482255967897255%
+Gap from band 8 (0.8008161271908761) to band 9 (0.820427891682894), 2.419347644612013%
+total elapsed time for run: 9.096533060073853
+done
+
+Elapsed run time = 10.3718 s
