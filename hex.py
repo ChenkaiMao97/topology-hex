@@ -27,9 +27,11 @@ resolution = int(sys.argv[5])
 #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!amorphous!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 # r_air = 0.001*int(sys.argv[1])
-r_air = 1/6+1e-6
+r_air = 1/6+1e-8
+print("r_air !!!!!!!!!!!!!!!!!: ", r_air)
 # r_cen = 0.001*int(sys.argv[2])
 r_cen = 1/3-r_air
+print("r_cen !!!!!!!!!!!!!!!!!: ", r_cen)
 
 vertices = [mp.Vector3(     4/3*r_air, 2/3*r_air),
             mp.Vector3(     2/3*r_air,-2/3*r_air),
@@ -38,12 +40,12 @@ vertices = [mp.Vector3(     4/3*r_air, 2/3*r_air),
             mp.Vector3(    -2/3*r_air, 2/3*r_air),
             mp.Vector3(     2/3*r_air, 4/3*r_air)]
 
-vertices_cen = [mp.Vector3(     4/3*r_cen, 2/3*r_cen),
-            mp.Vector3(     2/3*r_cen,-2/3*r_cen),
-            mp.Vector3(    -2/3*r_cen,-4/3*r_cen),
-            mp.Vector3(    -4/3*r_cen,-2/3*r_cen),
-            mp.Vector3(    -2/3*r_cen, 2/3*r_cen),
-            mp.Vector3(     2/3*r_cen, 4/3*r_cen)]
+# vertices_cen = [mp.Vector3(     4/3*r_cen, 2/3*r_cen),
+#             mp.Vector3(     2/3*r_cen,-2/3*r_cen),
+#             mp.Vector3(    -2/3*r_cen,-4/3*r_cen),
+#             mp.Vector3(    -4/3*r_cen,-2/3*r_cen),
+#             mp.Vector3(    -2/3*r_cen, 2/3*r_cen),
+#             mp.Vector3(     2/3*r_cen, 4/3*r_cen)]
 
 geometry = [mp.Prism(vertices, center=mp.Vector3( 1/3, 1/3), height = mp.inf, material=mp.Medium(epsilon=1)),
             mp.Prism(vertices, center=mp.Vector3( 1/3,   0), height = mp.inf, material=mp.Medium(epsilon=1)),
@@ -51,9 +53,9 @@ geometry = [mp.Prism(vertices, center=mp.Vector3( 1/3, 1/3), height = mp.inf, ma
             mp.Prism(vertices, center=mp.Vector3(-1/3,-1/3), height = mp.inf, material=mp.Medium(epsilon=1)),
             mp.Prism(vertices, center=mp.Vector3(-1/3,   0), height = mp.inf, material=mp.Medium(epsilon=1)),
             mp.Prism(vertices, center=mp.Vector3(   0, 1/3), height = mp.inf, material=mp.Medium(epsilon=1)),
-            mp.Prism(vertices_cen, center=mp.Vector3(   0,   0), height = mp.inf, material=mp.Medium(epsilon=(0.001*int(sys.argv[4]))**2))]
+            mp.Prism(vertices, center=mp.Vector3(   0,   0), height = mp.inf, material=mp.Medium(epsilon=(0.001*int(sys.argv[4]))**2))]
 
-# mp.Cylinder(radius = 0.001*int(sys.argv[2]), center = mp.Vector3(   0,   0), material=mp.Medium(epsilon=(0.001*int(sys.argv[4]))**2))
+# geometry = [mp.Cylinder(radius = 0.3, center = mp.Vector3(   0,   0), material=mp.Medium(epsilon=(0.001*int(sys.argv[4]))**2))]
 
 
 # geometry = [mp.Cylinder(, center = mp.Vector3( 1/3, 1/3), material=mp.Medium(epsilon=1)),
@@ -77,7 +79,7 @@ ms = mpb.ModeSolver(num_bands=num_bands,
 
 ms.run_te()
 
-md = mpb.MPBData(rectify=True, periods=2, resolution=128)
+md = mpb.MPBData(rectify=True, periods=3, resolution=resolution)
 eps = ms.get_epsilon()
 converted_eps = md.convert(eps)
 plt.figure()
